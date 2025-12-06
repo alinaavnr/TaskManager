@@ -19,7 +19,7 @@ namespace TodoApp
                 Console.WriteLine("4. Выход");
                 Console.Write("Выберите пункт: ");
 
-                var choice = Console.ReadLine();
+                var choice = Console.ReadLine() ?? string.Empty; 
 
                 switch (choice)
                 {
